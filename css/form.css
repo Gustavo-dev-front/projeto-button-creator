@@ -20,6 +20,10 @@
   margin-bottom: 15px;
 }
 
-.form input:not([type="color"]) {
-  width: 100%;
+@media only screen and (max-width: 500px) {
+  .form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
