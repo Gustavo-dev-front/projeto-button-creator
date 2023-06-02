@@ -1,0 +1,25 @@
+.form {
+  background-color: rgb(241, 241, 241);
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.form form {
+  display: grid;
+  justify-content: start;
+  gap: 5px;
+}
+
+.form label {
+  display: block;
+}
+
+.form input {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form input:not([type="color"]) {
+  width: 100%;
+}

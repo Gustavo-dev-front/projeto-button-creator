@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/module.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <div class="form">
+            <form name="controls" id="controls">
+                <label for="content">content</label>
+                <input type="text" name="content" id="content">
+
+                <label for="color">color</label>
+                <input type="color" name="color" id="color">
+
+                <label for="backgroundColor">background-color</label>
+                <input type="color" name="backgroundColor" id="backgroundColor">
+
+                <label for="height">height</label>
+                <input type="range" name="height" id="height" min="0" max="300">
+
+                <label for="width">width</label>
+                <input type="range" name="width" id="width" min="0" max="300">
+
+                <label for="border">border</label>
+                <input type="text" name="border" id="border">
+
+                <label for="borderRadius">border-radius</label>
+                <input type="range" name="borderRadius" id="borderRadius" min="0" max="20">
+
+                <label for="fontFamily">font-family</label>
+                <select name="fontFamily" id="fontFamily">
+                    <option value="Arial">Arial</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="monospace">monospace</option>
+                </select>
+
+                <label for="fontSize">font-size</label>
+                <input type="text" name="fontSize" id="fontSize">
+            </form>
+        </div>
+        <div class="output">
+            <div class="button">
+                <button class="btn">Button</button>
+            </div>
+            <div class="code">
+                <pre>
+                    <code class="code-css">
+                        <span>Teste output</span>
+                        <span>Teste output</span>
+                        <span>Teste output</span>
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>

@@ -1,0 +1,10 @@
+.output .code-css {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.output .code-css span {
+  display: block;
+  color: #333;
+}

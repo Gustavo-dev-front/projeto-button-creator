@@ -1,0 +1,7 @@
+body > .container {
+  display: grid;
+  grid-template-columns: minmax(150px, 250px) 1fr;
+  gap: 40px;
+  padding: 30px;
+  background-color: rgb(189, 189, 189);
+}
